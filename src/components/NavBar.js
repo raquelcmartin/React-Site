@@ -3,9 +3,6 @@ import { Link } from 'react-router-dom';
 import Button from './Button';
 import '../style/NavBar.css'
 
-// import '@fortawesome/fontawesome-svg-core/styles.css';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
 
 function NavBar() {
     const [click, setClick] = useState(false);
@@ -46,7 +43,7 @@ function NavBar() {
                 </Link>
                 </li>
                 <li className='nav-item'>
-                <Link to='/aboutme' className='nav-links' onClick={closeMobileMenu}>
+                <Link to='/about' className='nav-links' onClick={closeMobileMenu}>
                     About Me
                 </Link>
                 </li>
