@@ -17,20 +17,20 @@ function Footer() {
       </section>
       
     
-      <section class='social-media'>
-        <div class='social-media-wrap'>
-          <div class='footer-logo'>
+      <section className='social-media'>
+        <div className='social-media-wrap'>
+          <div className='footer-logo'>
             <Link
-            class='social-icon-link linkedin'
+            className='social-icon-link linkedin'
             to='/'
             target='_blank'
             aria-label='LinkedIn'
           >
-            <i class='fab fa-linkedin' />
+            <i className='fab fa-linkedin' />
             </Link>
           </div>
-          <small class='website-rights'>TRVL © 2020</small>
-          <div class='social-icons'>
+          <small className='website-rights'>TRVL © 2020</small>
+          <div className='social-icons'>
           </div>
         </div>
       </section>
