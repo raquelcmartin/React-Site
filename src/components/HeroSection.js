@@ -7,8 +7,8 @@ function HeroSection() {
   return (
     <div className='hero-container'>
       <h1>HI I'M RAQUEL, A SOFTWARE ENGINEER</h1>
-      <p>Welcome to my personal website!</p>
-      <div className="hero-btns">
+      {/* <p>Welcome to my personal website!</p> */}
+      {/* <div className="hero-btns">
         <Button 
         className="btns" 
         buttonStyle='btn--outline'
@@ -23,7 +23,7 @@ function HeroSection() {
         >
             WATCH TRAILER <i className='far fa-play-circle' />
         </Button>
-      </div>
+      </div> */}
     </div>
   );
 }

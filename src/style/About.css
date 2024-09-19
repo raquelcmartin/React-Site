@@ -1,10 +1,16 @@
 .about-container {
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Adjusts spacing between text and image */
   padding: 50px;
   background-color: #f4f4f4;
   border-radius: 8px;
   margin: 0 auto;
   max-width: 800px;
+}
+
+.about-text {
+  flex: 1; /* Allows the text to take up available space */
 }
 
 .about-title {
@@ -27,4 +33,10 @@
 
 .about-link:hover {
   text-decoration: underline;
+}
+
+.profile-pic {
+  width: 200px; /* Adjust width as needed */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px;
 }
