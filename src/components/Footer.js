@@ -8,14 +8,15 @@ function Footer() {
       <section className='social-media'>
         <div className='social-media-wrap'>
           <div className='footer-logo'>
-            <Link
+            <a
               className='social-icon-link linkedin'
-              to='/'
+              href='https://www.linkedin.com/in/raquel-martin100/'
               target='_blank'
+              rel='noopener noreferrer'
               aria-label='LinkedIn'
             >
               <i className='fab fa-linkedin' />
-            </Link>
+            </a>
           </div>
           <small className='website-rights'>Raquel Martin © 2024</small>
           {/* <div className='social-icons'>
